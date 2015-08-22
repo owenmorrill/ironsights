@@ -1,0 +1,30 @@
+#hero-section {
+  background: url(../assets/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -2.4%;
+  width: 100%;
+  height: 600px;
+}
+
+.hero-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 2%;
+  background-color: rgba(122, 137, 159, 0.9);
+  top: 375px;
+  left: 30px;
+
+  &-title {
+    color:red;
+  }
+
+  &-body {
+    color:blue;
+  }
+
+}
