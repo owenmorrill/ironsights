@@ -8,7 +8,7 @@
   background-size: cover;
   margin-top: -2.4%;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 
 /* line 12, ../scss/_overrides.scss */
@@ -16,19 +16,35 @@
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 20%;
+  width: 40%;
   padding: 2%;
   background-color: rgba(122, 137, 159, 0.9);
-  top: 375px;
+  top: 345px;
   left: 30px;
+  border-radius: 15px;
 }
-/* line 22, ../scss/_overrides.scss */
+/* line 23, ../scss/_overrides.scss */
 .hero-section-title {
-  color: red;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
 }
-/* line 26, ../scss/_overrides.scss */
+/* line 29, ../scss/_overrides.scss */
 .hero-section-body {
-  color: blue;
+  color: #eee;
+  text-align: center;
+}
+
+/* line 36, ../scss/_overrides.scss */
+.social-media-icons {
+  float: right;
+  font-size: 1.5em;
+  padding-top: .5em;
+}
+
+/* line 42, ../scss/_overrides.scss */
+.page-header {
+  color: #fff;
 }
 
 /*!

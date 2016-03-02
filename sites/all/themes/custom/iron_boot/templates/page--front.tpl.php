@@ -108,6 +108,9 @@
             <?php print render($page['navigation']); ?>
           <?php endif; ?>
         </nav>
+		<div class="social-media-icons">
+			<a href="mailto:ironsightsdesign@gmail.com">Contact Us</a> | <a href="tel://+12026698103">202-669-8103</a>
+		</div>
       </div>
     <?php endif; ?>
   </div>
@@ -116,7 +119,11 @@
   <div id="hero-section">
 	<section class="hero-section">
 		<h1 class="hero-section-title">Iron Sights Web Design</h1>
-		<p class="hero-section-body">We love shooting sports and the men and women who keep this country safe. We also love websites. Call us to chat about any of our interests.</p>
+		<div class="hero-section-body">
+		  <?php if (!empty($page['hero'])): ?>
+            <?php print render($page['hero']); ?>
+          <?php endif; ?>
+		</div>
 	</section>
   </div>
 

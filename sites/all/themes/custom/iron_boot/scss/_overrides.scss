@@ -6,25 +6,39 @@
   background-size: cover;
   margin-top: -2.4%;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 
 .hero-section {
   position: relative;
-  display: block;
-  margin: 0 auto;
-  width: 20%;
-  padding: 2%;
-  background-color: rgba(122, 137, 159, 0.9);
-  top: 375px;
-  left: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding: 2%;
+    background-color: rgba(122, 137, 159, 0.9);
+    top: 345px;
+    left: 30px;
+	border-radius: 15px;
 
   &-title {
-    color:red;
+    color: #000;
+	text-align: center;
+	text-transform: uppercase;
   }
 
   &-body {
-    color:blue;
+    color: #eee;
+	text-align: center;
   }
 
+}
+
+.social-media-icons {
+    float: right;
+    font-size: 1.5em;
+    padding-top: .5em;
+}
+
+.page-header {
+	color: #fff;
 }
