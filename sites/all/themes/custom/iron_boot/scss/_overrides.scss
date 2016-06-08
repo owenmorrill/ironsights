@@ -1,12 +1,32 @@
+@import "breakpoint";
+$tab: 100px;
+
+@include breakpoint($tab, true) {
+	.l-constrained {
+		width: 100%;
+	}
+	.masthead { display: block; }
+	.l-branding {
+		margin-right:0;
+	}
+	@include breakpoint($tab, true) {
+		margin: 0;
+	}
+	.l-region--header {
+		padding: 0;
+		margin-right:0;
+	}
+}
+
 #hero-section {
-  background: url(../assets/images/background.jpg) no-repeat center center fixed; 
+  background: url(http://hickmanrifles.com/sites/hickmanrifles.com/files/images/Sniper_rifle.preview.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   margin-top: -2.4%;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .hero-section {
@@ -41,4 +61,23 @@
 
 .page-header {
 	color: #fff;
+}
+
+.navbar-inverse {
+	padding:0;
+	margin:0;
+}
+
+@media all and (max-width: 960px) {
+	section.hero-section {
+		width: 100%;
+		padding: 6px;
+		margin: 0;
+		left: 0;
+		top: 250px;
+
+		.hero-section-body {
+			font-size: 1.35em;
+		}
+	}
 }

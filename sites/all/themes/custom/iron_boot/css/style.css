@@ -1,17 +1,43 @@
 @charset "UTF-8";
-/* line 1, ../scss/_overrides.scss */
+@media (min-width: 100px) {
+  /* line 5, ../scss/_overrides.scss */
+  .l-constrained {
+    width: 100%;
+  }
+
+  /* line 8, ../scss/_overrides.scss */
+  .masthead {
+    display: block;
+  }
+
+  /* line 9, ../scss/_overrides.scss */
+  .l-branding {
+    margin-right: 0;
+  }
+}
+@media (min-width: 100px) and (min-width: 100px) {
+  margin: 0;
+}
+@media (min-width: 100px) {
+  /* line 15, ../scss/_overrides.scss */
+  .l-region--header {
+    padding: 0;
+    margin-right: 0;
+  }
+}
+/* line 21, ../scss/_overrides.scss */
 #hero-section {
-  background: url(../assets/images/background.jpg) no-repeat center center fixed;
+  background: url(http://hickmanrifles.com/sites/hickmanrifles.com/files/images/Sniper_rifle.preview.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   margin-top: -2.4%;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
-/* line 12, ../scss/_overrides.scss */
+/* line 32, ../scss/_overrides.scss */
 .hero-section {
   position: relative;
   display: block;
@@ -23,30 +49,50 @@
   left: 30px;
   border-radius: 15px;
 }
-/* line 23, ../scss/_overrides.scss */
+/* line 43, ../scss/_overrides.scss */
 .hero-section-title {
   color: #000;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 29, ../scss/_overrides.scss */
+/* line 49, ../scss/_overrides.scss */
 .hero-section-body {
   color: #eee;
   text-align: center;
 }
 
-/* line 36, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
 .social-media-icons {
   float: right;
   font-size: 1.5em;
   padding-top: .5em;
 }
 
-/* line 42, ../scss/_overrides.scss */
+/* line 62, ../scss/_overrides.scss */
 .page-header {
   color: #fff;
 }
 
+/* line 66, ../scss/_overrides.scss */
+.navbar-inverse {
+  padding: 0;
+  margin: 0;
+}
+
+@media all and (max-width: 960px) {
+  /* line 72, ../scss/_overrides.scss */
+  section.hero-section {
+    width: 100%;
+    padding: 6px;
+    margin: 0;
+    left: 0;
+    top: 250px;
+  }
+  /* line 79, ../scss/_overrides.scss */
+  section.hero-section .hero-section-body {
+    font-size: 1.35em;
+  }
+}
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
