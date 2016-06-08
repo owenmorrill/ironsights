@@ -19,7 +19,7 @@ $tab: 100px;
 }
 
 #hero-section {
-  background: url(http://hickmanrifles.com/sites/hickmanrifles.com/files/images/Sniper_rifle.preview.jpg) no-repeat center center;
+  background: url('../assets/images/background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,8 +42,8 @@ $tab: 100px;
 
   &-title {
     color: #000;
-	text-align: center;
-	text-transform: uppercase;
+		text-align: center;
+		text-transform: uppercase;
   }
 
   &-body {

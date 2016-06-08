@@ -39,14 +39,14 @@
 </header>
 
   <div id="hero-section">
-	<section class="hero-section">
-		<h1 class="hero-section-title">Iron Sights Web Design</h1>
-		<div class="hero-section-body">
-		  <?php if (!empty($page['hero'])): ?>
-            <?php print render($page['hero']); ?>
-          <?php endif; ?>
-		</div>
-	</section>
+  	<section class="hero-section">
+  		<h1 class="hero-section-title">Iron Sights Web Design</h1>
+  		<div class="hero-section-body">
+  		  <?php if (!empty($page['hero'])): ?>
+              <?php print render($page['hero']); ?>
+            <?php endif; ?>
+  		</div>
+  	</section>
   </div>
 
 <div class="main-container container">

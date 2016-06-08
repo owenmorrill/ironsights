@@ -27,7 +27,7 @@
 }
 /* line 21, ../scss/_overrides.scss */
 #hero-section {
-  background: url(http://hickmanrifles.com/sites/hickmanrifles.com/files/images/Sniper_rifle.preview.jpg) no-repeat center center;
+  background: url("../assets/images/background.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
