@@ -816,7 +816,7 @@ Drupal.overlay.refreshRegions = function (data) {
       // Allow special behaviors to detach.
       Drupal.detachBehaviors($(regionSelector));
       $.get(Drupal.settings.basePath + Drupal.settings.overlay.ajaxCallback + '/' + regionName, function (newElement) {
-        $(regionSelector).replaceWith($(newElement));
+        $(regionSelector).replaceWith($(newElement.htmlEscape()));
         Drupal.attachBehaviors($(regionSelector), Drupal.settings);
       });
     });
